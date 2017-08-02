@@ -1,13 +1,13 @@
-import gulp from 'gulp';
-import connect from 'gulp-connect';
-import browserify from 'browserify';
-import watchify from 'watchify';
-import stringify from 'stringify';
-import babelify    from 'babelify';
-import source from 'vinyl-source-stream';
-import autoprefixer from 'gulp-autoprefixer';
-import concat from 'gulp-concat';
-import sass from 'gulp-sass';
+var gulp = require ('gulp');
+var connect = require ('gulp-connect');
+var browserify = require ('browserify');
+var watchify = require ('watchify');
+var stringify = require ('stringify');
+var babelify    = require ('babelify');
+var source = require ('vinyl-source-stream');
+var autoprefixer = require ('gulp-autoprefixer');
+var concat = require ('gulp-concat');
+var sass = require ('gulp-sass');
 
 const autoprefixerOptions = {
     browsers: [
