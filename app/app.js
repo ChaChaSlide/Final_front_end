@@ -1,13 +1,18 @@
 import appComponent from './app.component';
 import navComponent from './components/nav/nav.component';
 import footerComponent from './components/footer/footer.component';
-
+import shopComponent from './components/shop/shop.component';
+import contactComponent from './components/contact/contact.component';
+import aboutComponent from './components/about/about.component';
 
 
 angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
 .component('app', appComponent)
 .component('nav', navComponent)
 .component('footer', footerComponent)
+.component('shop', shopComponent)
+.component('contact', contactComponent)
+.component('about', aboutComponent)
 
 
 
