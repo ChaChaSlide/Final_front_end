@@ -1,4 +1,5 @@
 
+
 /* Footer styles
 -------------------------------------------------- */
 html {
@@ -15,10 +16,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 75px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 212, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
-  background: -webkit-linear-gradient(rgba(240, 212, 0, 0.45), rgba(0, 0, 0, 0.45)), url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
-  background: -o-linear-gradient(rgba(240, 212, 0, 0.45), rgba(0, 0, 0, 0.45)), url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
-  background: linear-gradient(rgba(240, 212, 0, 0.45), rgba(0, 0, 0, 0.45)), url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg); }
+  background: url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg); }
 
 /* Custom footer CSS
 -------------------------------------------------- */
@@ -36,5 +34,21 @@ body {
 .img-circle {
   max-height: 50px; }
 
+.homejumbo {
+  background-color: #000; }
 
+#navlogo {
+  max-height: 75px;
+  max-width: 100px; }
 
+.carousel-item {
+  max-height: 400px;
+  max-width: 400px; }
+
+.carousel-inner {
+  max-height: 400px;
+  max-width: 400px; }
+
+.carousel.slide {
+  max-height: 400px;
+  max-width: 400px; }

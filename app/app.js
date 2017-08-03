@@ -4,6 +4,7 @@ import footerComponent from './components/footer/footer.component';
 import shopComponent from './components/shop/shop.component';
 import contactComponent from './components/contact/contact.component';
 import aboutComponent from './components/about/about.component';
+import homeComponent from './components/home/home.component';
 
 
 angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
@@ -13,8 +14,9 @@ angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
 .component('shop', shopComponent)
 .component('contact', contactComponent)
 .component('about', aboutComponent)
+.component('home', homeComponent)
 .config(config)
-.run(run);
+
 
 
 
@@ -22,6 +24,10 @@ angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
 config.$inject = ['$routeProvider', '$locationProvider'];
   function config($routeProvider, $locationProvider){
     $routeProvider
+      .when('/home', {
+        templateUrl: 'app/components/home/home.html'
+      })
+
       .when('/shop', {
         templateUrl: 'app/components/shop/shop.html'
       })
@@ -34,5 +40,5 @@ config.$inject = ['$routeProvider', '$locationProvider'];
         templateUrl: 'app/components/contact/contact.html'
       })
 
-      .otherwise({redirectTo: '/shop'});
+      .otherwise({redirectTo: '/home'});
   }
