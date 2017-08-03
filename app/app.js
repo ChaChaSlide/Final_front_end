@@ -13,6 +13,8 @@ angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
 .component('shop', shopComponent)
 .component('contact', contactComponent)
 .component('about', aboutComponent)
+.config(config)
+.run(run);
 
 
 
@@ -20,8 +22,6 @@ angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
 config.$inject = ['$routeProvider', '$locationProvider'];
   function config($routeProvider, $locationProvider){
     $routeProvider
-
-
       .when('/shop', {
         templateUrl: 'app/components/shop/shop.html'
       })

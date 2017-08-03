@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bootcamp-s17/ipam-frontend.git"
+    "url": "git+https://github.com/ChaChaSlide/Final_front_end.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bootcamp-s17/ipam-frontend/issues"
+    "url": "https://github.com/ChaChaSlide/Final_front_end"
   },
-  "homepage": "https://github.com/bootcamp-s17/ipam-frontend#readme",
+  "homepage": "https://github.com/ChaChaSlide/Final_front_end#readme",
   "devDependencies": {
     "angular": "^1.5.6",
     "babel-cli": "^6.24.1",
