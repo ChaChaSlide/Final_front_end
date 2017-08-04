@@ -1,38 +1,7 @@
 
 
-/* Footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%; }
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px; }
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 75px;
-  background: url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg); }
-
-/* Custom footer CSS
--------------------------------------------------- */
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px; }
-
-.container .text-muted {
-  margin: 20px 0; }
-
-.footertext {
-  color: #ffffff; }
-
-.img-circle {
-  max-height: 50px; }
+.homejumbo {
+  background-color: #000; }
 
 .jgd-navbar {
   padding-top: 30px;
@@ -42,9 +11,6 @@ body {
 .jgd-form-btn {
   margin-left: 10px;
   border-left: 1px solid #969696; }
-
-.homejumbo {
-  background-color: #000; }
 
 .shop-carousel {
   background: #E4E4E4;
@@ -62,11 +28,26 @@ body {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+.shop-content .container {
+  margin: 0 !important;
+  max-width: 100%;
+  width: 100%; }
+
+.shop-content .sho-nav {
+  width: 50%; }
+
 .shop-card-img {
   max-width: 380px;
   max-height: 180px; }
 
 .shop-card {
   display: inline-block;
-  margin-bottom: 30px;
-  margin-right: 30px; }
+  margin: 0px !important;
+  padding-right: 15px;
+  padding-bottom: 30px; }
+
+.card {
+  margin: 0px !important; }
+
+.card-block {
+  margin: 0px !important; }
