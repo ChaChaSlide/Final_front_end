@@ -40,5 +40,5 @@ config.$inject = ['$routeProvider', '$locationProvider'];
         templateUrl: 'app/components/contact/contact.html'
       })
 
-      .otherwise({redirectTo: '/home'});
+      .otherwise({redirectTo: '/shop'});
   }

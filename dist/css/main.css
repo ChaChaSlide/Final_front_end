@@ -34,21 +34,39 @@ body {
 .img-circle {
   max-height: 50px; }
 
+.jgd-navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: white; }
+
+.jgd-form-btn {
+  margin-left: 10px;
+  border-left: 1px solid #969696; }
+
 .homejumbo {
   background-color: #000; }
 
-#navlogo {
-  max-height: 75px;
-  max-width: 100px; }
-
-.carousel-item {
-  max-height: 400px;
-  max-width: 400px; }
+.shop-carousel {
+  background: #E4E4E4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-height: 500px; }
 
 .carousel-inner {
-  max-height: 400px;
-  max-width: 400px; }
+  max-height: 500px; }
 
-.carousel.slide {
-  max-height: 400px;
-  max-width: 400px; }
+.carousel-item {
+  max-height: 450px; }
+
+.shop-content {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.shop-card-img {
+  max-width: 380px;
+  max-height: 180px; }
+
+.shop-card {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 30px; }
