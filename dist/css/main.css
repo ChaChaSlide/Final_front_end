@@ -7,11 +7,14 @@
   font-size: 100em;
   color: #f7f7f9; }
 
-.card-img-top {
+.home-card-img {
   padding-left: 100px;
   padding-top: 25px;
   max-width: 400px;
   max-height: 300px; }
+
+.home-btn {
+  color: white; }
 
 .lead {
   margin-top: 50px;
@@ -20,11 +23,15 @@
 .jgd-navbar {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: white; }
+  background: #e1bbff; }
 
 .jgd-form-btn {
   margin-left: 10px;
   border-left: 1px solid #969696; }
+
+.jgd-navbar > * a {
+  font-family: 'Great Vibes', cursive;
+  color: white !important; }
 
 .shop-carousel {
   background: #E4E4E4;

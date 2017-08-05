@@ -1,10 +1,15 @@
 .jgd-navbar{
   padding-top: 30px;
   padding-bottom: 30px;
-  background: white;
+  background: #e1bbff;
 }
 
 .jgd-form-btn{
   margin-left: 10px;
   border-left: 1px solid #969696;
+}
+
+.jgd-navbar >* a{
+  font-family: 'Great Vibes', cursive;
+  color: white !important;
 }
