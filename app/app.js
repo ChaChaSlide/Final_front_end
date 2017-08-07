@@ -4,6 +4,7 @@ import shopComponent from './components/shop/shop.component';
 import contactComponent from './components/contact/contact.component';
 import aboutComponent from './components/about/about.component';
 import homeComponent from './components/home/home.component';
+import jgdService from './app.services.js';
 
 
 angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
@@ -13,6 +14,7 @@ angular.module('app', ['ngRoute','ngCookies', 'ngResource'])
 .component('contact', contactComponent)
 .component('about', aboutComponent)
 .component('home', homeComponent)
+.factory(jgdService, jgdService)
 .config(config)
 
 

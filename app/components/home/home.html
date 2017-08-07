@@ -14,10 +14,11 @@
     <img class="home-card-img card-img-top" src="app\assets\Key_Logo.jpg" alt="Card image cap">
     <div class="card-block">
       <h4 class="card-title">Jewelry Types</h4>
-      <div class="list-group">
+      <div class="list-group" ng-repeat="JewelryType in $ctrl.$rootScope.JewelryTypes">
           <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
-            Necklaces
-          </a>
+            {{JewelryType.name}}
+            
+     <!--      </a>
           <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
             Bracelet
           </a>
@@ -25,7 +26,7 @@
             Earing
           </a>
           <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
-            Chokers
+            Chokers -->
           </a>
       </div>
     </div>
