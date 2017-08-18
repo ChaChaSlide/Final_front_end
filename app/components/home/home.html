@@ -1,0 +1,47 @@
+<nav></nav>
+<div class="card-deck">
+  <div class="card">
+    <img class="home-card-img card-img-top" src="app\assets\Earings.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">SALE!!!</h4>
+      <p class="card-text">Through this week only Aug 6th - Aug 12th, ALL earings will be 25% off!!!</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="home-card-img card-img-top" src="app\assets\Key_Logo.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Jewelry Types</h4>
+      <div class="list-group" ng-repeat="JewelryType in $ctrl.$rootScope.JewelryTypes">
+          <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
+            {{JewelryType.name}}
+            
+     <!--      </a>
+          <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
+            Bracelet
+          </a>
+          <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
+            Earing
+          </a>
+          <a class="list-group-item list-group-item-action justify-content-between"  href="/#!/shop">
+            Chokers -->
+          </a>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title">News</h4>
+      <p class="card-text">Thank you for having me back on Midday Kenucky to show off and spread my passion around. Once again, you made me feel welcome and made it so easy even though i was nervous.       </p>
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMiddayKentucky%2Fvideos%2F1303792429738474%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
